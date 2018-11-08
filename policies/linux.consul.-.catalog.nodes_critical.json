@@ -1,0 +1,28 @@
+{
+  "policy": {
+    "actions": [
+      {
+        "category": 3,
+        "type": "event"
+      }
+    ],
+    "conditions": [
+      {
+        "analytic": "actual",
+        "level": 1,
+        "metric": "consul.catalog.nodes_critical",
+        "operator": "<"
+      }
+    ],
+    "deleted": false,
+    "description": "The cluster health status is red which means that one or more primary shard(s) and its replica(s) is missing.",
+    "duration": 900,
+    "enabled": true,
+    "name": "Linux ElasticSearch - Cluster Health Degraded to Red",
+    "scope": {
+      "elementTypes": [
+        "SERVER"
+      ]
+    }
+  }
+}
