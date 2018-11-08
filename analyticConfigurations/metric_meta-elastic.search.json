@@ -18,28 +18,28 @@
         }
       },
       {
-	"match": "consul.runtime.*"
+	"match": "consul.runtime.*",
 	"properties": {
 	   "statistic": "MAX",
 	   "type": "COUNTER"
 	  }
       },
       {
-	"match": "consul.counter.*"
+	"match": "consul.counter.*",
 	"properties": {
 	  "statistic": "MAX",
 	  "type": "COUNTER"
 	  }
       },
       {
-	"match": "consul.raft.*"
+	"match": "consul.raft.*",
 	"properties": {
 	  "statistic": "MAX",
 	  "type": "COUNTER"
 	  }
       },
       {
-	"match": "consul.serf.*"
+	"match": "consul.serf.*",
 	"properties": "MAX",
 	  "statistic": "MAX",
 	  "type": "COUNTER"
