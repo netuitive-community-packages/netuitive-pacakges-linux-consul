@@ -74,24 +74,24 @@
   ],
   "analyticConfigurations" : [ {
     "data" : {
-      "file" : "analyticConfigurations/ace-elastic.search.json",
+      "file" : "analyticConfigurations/ace-consul.json",
       "encoding" : "application/json",
       "content" : null
     }
   }, {
     "data" : {
-      "file" : "analyticConfigurations/computed_metric-elastic.search.json",
+      "file" : "analyticConfigurations/computed_metric-consul.json",
       "encoding" : "application/json",
       "content" : null
     }
   }, {
     "data" : {
-      "file" : "analyticConfigurations/metric_meta-elastic.search.json",
+      "file" : "analyticConfigurations/metric_meta-consul.json",
       "encoding" : "application/json",
       "content" : null
     }
   } ],
-  "dashboards" : [ {
+  "dashboards" : [ { ## Fix these below
     "data" : {
       "file" : "dashboards/elasticsearch.system.resources.summary.json",
       "encoding" : "application/json",
