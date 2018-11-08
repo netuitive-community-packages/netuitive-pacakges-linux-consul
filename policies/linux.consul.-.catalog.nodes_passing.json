@@ -2,7 +2,7 @@
   "policy": {
     "actions": [
       {
-        "category": 3,
+        "category": 1,
         "type": "event"
       }
     ],
@@ -10,15 +10,15 @@
       {
         "analytic": "actual",
         "level": 1,
-        "metric": "consul.catalog.nodes_critical",
+        "metric": "consul.catalog.nodes_passing",
         "operator": "<"
       }
     ],
     "deleted": false,
-    "description": "consul.catalog.nodes_critical is greater than 0.",
+    "description": "Number of nodes with service status `passing` same as those registered",
     "duration": 900,
     "enabled": true,
-    "name": "Consul node(s) or service(s) critical",
+    "name": "All consul nodes passing.",
     "scope": {
       "elementTypes": [
         "SERVER"
