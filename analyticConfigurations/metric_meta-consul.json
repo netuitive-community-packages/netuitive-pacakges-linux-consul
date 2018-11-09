@@ -32,7 +32,7 @@
       },
       {
 	"match": "consul.serf.*",
-	"properties": "MAX",
+	"properties": { 
 	  "statistic": "MAX",
 	  "type": "COUNTER"
 	  }
