@@ -1,0 +1,28 @@
+{
+  "analyticConfiguration": {
+    "metrics": [
+      {
+        "match": "consul.raft.commitTime.max",
+        "properties": {
+          "expression": "metric['consul.raft.commitTime'].hmax",
+          "fqn": "consul.raft.commitTime.max",
+          "name": "The max time it takes to commit a new entry to the raft log on the leader"
+        }
+      },
+      {
+        "match": "consul.raft.commitTime.avg",
+        "properties": {
+          "expression": "data['consul.raft.commitTime'].avg",
+          "fqn": "consul.raft.commitTime.avg",
+          "name": "The average time it takes to commit a new entry to the raft log on the leader"
+        }
+      }
+    ],
+    "name": "Consul",
+    "scope": {
+      "elementType": "SERVER",
+      "metricMatches": "^consul.*"
+    },
+    "type": "COMPUTED_METRIC"
+  }
+}
