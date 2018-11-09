@@ -48,29 +48,23 @@
     }
   }, {
     "data" : {
-	    "file" : "policies/linux.consul.-.services_critical.json",
+	    "file" : "policies/linux.consul.-.catalog.services_critical.json",
 	    "encoding" : "application/json",
 	    "content" : null
     }
   }, {
     "data" : {
-	    "file" : "policies/linux.consul.-.services_passing.json",
+	    "file" : "policies/linux.consul.-.catalog.services_passing.json",
 	    "encoding" : "application/json",
 	    "content" : null
     }
   }, {
     "data" : {
-	    "file" : "policies/linux.consul.-.services_up.json",
+	    "file" : "policies/linux.consul.-.catalog.services_up.json",
 	    "encoding" : "application/json",
 	    "content" : null
     }
-  }, {
-    "data" : {
-	    "file" : "policies/linux.consul.-.services_up.json",
-	    "encoding" : "application/json",
-	    "content" : null
-    }
-  }
+   }
   ],
   "analyticConfigurations" : [ {
     "data" : {
@@ -90,30 +84,6 @@
       "encoding" : "application/json",
       "content" : null
     }
-  } ],
-  "dashboards" : [ { ## Fix these below
-    "data" : {
-      "file" : "dashboards/elasticsearch.system.resources.summary.json",
-      "encoding" : "application/json",
-      "content" : null
-    }
-  }, {
-    "data" : {
-      "file" : "dashboards/elasticsearch.search.summary.json",
-      "encoding" : "application/json",
-      "content" : null
-    }
-  }, {
-    "data" : {
-      "file" : "dashboards/elasticsearch.indexing.summary.json",
-      "encoding" : "application/json",
-      "content" : null
-    }
-  }, {
-    "data" : {
-      "file" : "dashboards/elasticsearch.thread.pool.resource.summary.json",
-      "encoding" : "application/json",
-      "content" : null
-    }
-  } ]
+  } 
+  ]
 }
