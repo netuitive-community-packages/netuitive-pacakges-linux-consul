@@ -24,17 +24,17 @@
       },
       {
         "match": "consul.raft.*",
-	"properties": {
-		"baseline": true,
-		"correlation": true
-	}
+        "properties": {
+          "baseline": true,
+          "correlation": true
+        }
       },
       {
-	"match": "consul.serf.*",
-	"properties": {
-		"baseline": true,
-		"correlation": true
-	}
+        "match": "consul.serf.*",
+        "properties": {
+          "baseline": true,
+          "correlation": true
+        }
       }
     ],
     "name": "Consul",
