@@ -1,6 +1,6 @@
 {
   "id" : "netuitive.packages.linux.consul",
-  "version" : "0.1.0",
+  "version" : "1.0.0",
   "manifest" : {
     "name" : "Netuitive Packages Linux Consul",
     "description" : "A set of Netuitive analytics configurations, polices, dashboards, and reports that are used to monitor performance of the elements collected from the Consul collector in the Netuitive Agent.",
