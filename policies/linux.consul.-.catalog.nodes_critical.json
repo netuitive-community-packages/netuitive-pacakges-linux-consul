@@ -1,0 +1,28 @@
+{
+  "policy": {
+    "actions": [
+      {
+        "category": 3,
+        "type": "event"
+      }
+    ],
+    "conditions": [
+      {
+        "analytic": "actual",
+        "level": 1,
+        "metric": "consul.catalog.nodes_critical",
+        "operator": "<"
+      }
+    ],
+    "deleted": false,
+    "description": "consul.catalog.nodes_critical is greater than 0. Value is non-zero if any check is marked critical for the node. Status must be one of passing, warning, or critical",
+    "duration": 900,
+    "enabled": true,
+    "name": "Consul node(s) or service(s) critical",
+    "scope": {
+      "elementTypes": [
+        "SERVER"
+      ]
+    }
+  }
+}

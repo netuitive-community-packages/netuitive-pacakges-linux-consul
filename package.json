@@ -1,0 +1,53 @@
+{
+  "id" : "netuitive.packages.linux.consul",
+  "version" : "0.1.0",
+  "manifest" : {
+    "name" : "Netuitive Packages Linux Consul",
+    "description" : "A set of Netuitive analytics configurations, polices, dashboards, and reports that are used to monitor performance of the elements collected from the Consul collector in the Netuitive Agent.",
+    "author" : {
+      "name" : "Netuitive Research",
+      "email" : "research@netuitive.com"
+    },
+    "distro" : {
+      "logo" : "http://assets.app.netuitive.com/pkg/logo/netuitive/banner_logo.png",
+      "download" : "https://github.com/netuitive-community-packages/netuitive-packages-linux-consul/archive/master.zip"
+    },
+    "compatibility" : [ "INFRASTRUCTURE:Consul" ],
+    "tags" : [ ],
+    "checksum" : null
+  },
+  "policies" : [ {
+    "data" : {
+      "file" : "policies/linux.consul.-.catalog.nodes_critical.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  }, {
+    "data" : {
+      "file" : "policies/linux.consul.-.catalog.nodes_passing.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  }
+  ],
+  "analyticConfigurations" : [ {
+    "data" : {
+      "file" : "analyticConfigurations/ace-consul.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  }, {
+    "data" : {
+      "file" : "analyticConfigurations/computed_metric-consul.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  }, {
+    "data" : {
+      "file" : "analyticConfigurations/metric_meta-consul.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  } 
+  ]
+}

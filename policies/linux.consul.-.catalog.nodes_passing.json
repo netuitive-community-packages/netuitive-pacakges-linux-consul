@@ -1,0 +1,28 @@
+{
+  "policy": {
+    "actions": [
+      {
+        "category": 1,
+        "type": "event"
+      }
+    ],
+    "conditions": [
+      {
+        "analytic": "actual",
+        "level": 1,
+        "metric": "consul.catalog.nodes_passing",
+        "operator": "<"
+      }
+    ],
+    "deleted": false,
+    "description": "Number of nodes with service status `passing` same as those registered for health check--all nodes passing. Status must be one of passing, warning, or critical.",
+    "duration": 900,
+    "enabled": true,
+    "name": "All consul nodes passing.",
+    "scope": {
+      "elementTypes": [
+        "SERVER"
+      ]
+    }
+  }
+}
