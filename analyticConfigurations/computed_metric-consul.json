@@ -4,7 +4,7 @@
       {
         "match": "consul.raft.commitTime.max",
         "properties": {
-          "expression": "metric['consul.raft.commitTime'].hmax",
+          "expression": "metric['consul.raft.commitTime'].max",
           "fqn": "consul.raft.commitTime.max",
           "name": "The max time it takes to commit a new entry to the raft log on the leader"
         }
