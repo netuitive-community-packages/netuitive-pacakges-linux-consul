@@ -2,20 +2,12 @@
   "analyticConfiguration": {
      "metrics": [
       {
-        "match": "consul.catalog.nodes_(critical|passing|up|warning|nodes|critical|passing|up|warning)$",
+        "match": "consul.catalog.(total|nodes|services)_.*",
         "properties": {
           "tags": {
             "unit": "count"
           }
 	}
-      },
-      {
-        "match": "consul.catalog.services_(critical|passing|up|warning|nodes|critical|passing|up|warning)$",
-        "properties": {
-          "tags": {
-            "unit": "count"
-          }
-        }
       },
       {
 	"match": "consul.runtime.*",
