@@ -4,7 +4,7 @@
       {
         "match": "consul.raft.commitTime.max",
         "properties": {
-          "expression": "metric['consul.raft.commitTime'].hmax",
+          "expression": "metric['consul.raft.commitTime'].max",
           "fqn": "consul.raft.commitTime.max",
           "name": "The max time it takes to commit a new entry to the raft log on the leader"
         }
@@ -15,6 +15,14 @@
           "expression": "data['consul.raft.commitTime'].avg",
           "fqn": "consul.raft.commitTime.avg",
           "name": "The average time it takes to commit a new entry to the raft log on the leader"
+        }
+      },
+      {
+        "match": "consul.catalog.nodes_critical.max",
+        "properties": {
+          "expression": "metric['consul.catalog.nodes_critical'].max",
+          "fqn": "consul.catalog.nodes_critical.max",
+          "name": "Max amount of critical nodes"
         }
       }
     ],
