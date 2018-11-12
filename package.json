@@ -28,6 +28,30 @@
       "encoding" : "application/json",
       "content" : null
     }
+  }, {
+    "data" : {
+      "file" : "linux.consul.-.catalog.nodes_up.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  }, {
+    "data" : {
+      "file" : "linux.consul.-.catalog.nodes_warning.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  }, {
+    "data" : {
+      "file" : "linux.consul.-.catalog.services_critical.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  }, {
+    "data" : {
+      "file" : "linux.consul.-.catalog.total_nodes.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
   }
   ],
   "analyticConfigurations" : [ {
