@@ -1,0 +1,48 @@
+{
+  "analyticConfiguration": {
+    "metrics": [
+      {
+        "match": "consul.catalog.(total|nodes|services)_.*",
+        "properties": {
+          "tags": {
+            "unit": "count"
+          }
+        }
+      },
+      {
+        "match": "consul.runtime.*",
+        "properties": {
+          "statistic": "MAX",
+          "type": "COUNTER"
+        }
+      },
+      {
+        "match": "consul.counter.*",
+        "properties": {
+          "statistic": "MAX",
+          "type": "COUNTER"
+        }
+      },
+      {
+        "match": "consul.raft.*",
+        "properties": {
+          "statistic": "MAX",
+          "type": "COUNTER"
+        }
+      },
+      {
+        "match": "consul.serf.*",
+        "properties": {
+          "statistic": "MAX",
+          "type": "COUNTER"
+        }
+      }
+    ],
+    "name": "Consul",
+    "scope": {
+      "elementType": "SERVER",
+      "metricMatches": "^consul\\..*"
+    },
+    "type": "METRIC_META"
+  }
+}
