@@ -9,9 +9,9 @@
     "conditions": [
       {
         "analytic": "actual",
-        "level": 1,
+        "level": 0,
         "metric": "consul.catalog.nodes_critical",
-        "operator": ">="
+        "operator": ">"
       }
     ],
     "deleted": false,
