@@ -6,5 +6,9 @@ A set of Netuitive analytics configurations, polices, dashboards, and reports th
 
 ### Version next
 
+- Fix operation error in nodes_critical policy, add max statistic for nodes_critical computed metric
+
+### Version 1.0.0
+
 * Initial production release of the package for monitoring Consul.
 
