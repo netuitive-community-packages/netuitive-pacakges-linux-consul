@@ -30,25 +30,25 @@
     }
   }, {
     "data" : {
-      "file" : "linux.consul.-.catalog.nodes_up.json",
+      "file" : "policies/linux.consul.-.catalog.nodes_up.json",
       "encoding" : "application/json",
       "content" : null
     }
   }, {
     "data" : {
-      "file" : "linux.consul.-.catalog.nodes_warning.json",
+      "file" : "policies/linux.consul.-.catalog.nodes_warning.json",
+      "encoding" : "policies/application/json",
+      "content" : null
+    }
+  }, {
+    "data" : {
+      "file" : "policies/linux.consul.-.catalog.services_critical.json",
       "encoding" : "application/json",
       "content" : null
     }
   }, {
     "data" : {
-      "file" : "linux.consul.-.catalog.services_critical.json",
-      "encoding" : "application/json",
-      "content" : null
-    }
-  }, {
-    "data" : {
-      "file" : "linux.consul.-.catalog.total_nodes.json",
+      "file" : "policies/linux.consul.-.catalog.total_nodes.json",
       "encoding" : "application/json",
       "content" : null
     }
