@@ -20,7 +20,7 @@
       {
         "match": "consul.catalog.nodes_critical.max",
         "properties": {
-          "expression": "metric['consul.catalog.nodes_critical']",
+          "expression": "metric['consul.catalog.nodes_critical'].max",
           "fqn": "consul.catalog.nodes_critical.max",
           "name": "The max number of nodes which have any check marked critical at any given cycle"
         }

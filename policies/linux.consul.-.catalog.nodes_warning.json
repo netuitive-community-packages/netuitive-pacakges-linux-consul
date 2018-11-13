@@ -1,0 +1,28 @@
+{
+  "policy": {
+    "actions": [
+      {
+        "category": 2,
+        "type": "event"
+      }
+    ],
+    "conditions": [
+      {
+        "analytic": "actual",
+        "level": 0,
+        "metric": "consul.catalog.nodes_warning",
+        "operator": ">"
+      }
+    ],
+    "deleted": false,
+    "description": "consul.catalog.nodes_warning is greater than 0",
+    "duration": 900,
+    "enabled": true,
+    "name": "Consul node(s) warning",
+    "scope": {
+      "elementTypes": [
+        "SERVER"
+      ]
+    }
+  }
+}
