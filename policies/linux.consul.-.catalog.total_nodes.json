@@ -1,27 +1,27 @@
 {
-    "policy": {
-      "actions": [
-        {
-          "category": 2,
-          "type": "event"
-        }
-      ],
-      "conditions": [
-        {
-          "analytic": "baselineDeviation",
-          "metric": "consul.catalog.total_nodes",
-          "operator": "<"
-        }
-      ],
-      "deleted": false,
-      "description": "This policy will generate a WARNING event when the number of total nodes drops.",
-      "duration": 900,
-      "enabled": false,
-      "name": "Consul - Total Nodes Deviation",
-      "scope": {
-        "elementTypes": [
-          "SERVER"
-        ]
+  "policy": {
+    "actions": [
+      {
+        "category": 2,
+        "type": "event"
       }
+    ],
+    "conditions": [
+      {
+        "analytic": "baselineDeviation",
+        "metric": "consul.catalog.total_nodes",
+        "operator": "<"
+      }
+    ],
+    "deleted": false,
+    "description": "This policy will generate a WARNING event when the number of total nodes drops.",
+    "duration": 900,
+    "enabled": false,
+    "name": "Consul - Total Nodes Deviation",
+    "scope": {
+      "elementTypes": [
+        "SERVER"
+      ]
     }
   }
+}
