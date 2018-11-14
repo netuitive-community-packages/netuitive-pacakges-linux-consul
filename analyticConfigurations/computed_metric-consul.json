@@ -16,14 +16,6 @@
           "fqn": "consul.raft.commitTime.avg",
           "name": "The average time it takes to commit a new entry to the raft log on the leader"
         }
-      },
-      {
-        "match": "consul.catalog.nodes_critical.max",
-        "properties": {
-          "expression": "metric['consul.catalog.nodes_critical'].max",
-          "fqn": "consul.catalog.nodes_critical.max",
-          "name": "The max number of nodes which have any check marked critical at any given cycle"
-        }
       }
     ],
     "name": "Consul",
