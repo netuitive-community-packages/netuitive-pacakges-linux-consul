@@ -6,7 +6,10 @@ A set of Netuitive analytics configurations, polices, dashboards, and reports th
 
 ### Version next
 
-- Fix operation error in nodes_critical policy, add max statistic for nodes_critical computed metric
+### Version 1.0.1
+
+* Fix operation error in nodes_critical policy, add max statistic for nodes_critical computed metric.
+* Added 4 policies: nodes_up, nodes_warning, services_critical, total_nodes.
 
 ### Version 1.0.0
 
