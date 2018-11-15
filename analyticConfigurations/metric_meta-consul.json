@@ -4,8 +4,7 @@
       {
         "match": "consul.catalog.(total|nodes|services)_.*",
         "properties": {
-          "statistic": "MAX",
-          "type": "COUNTER"
+          "statistic": "MAX"
         }
       },
       {
