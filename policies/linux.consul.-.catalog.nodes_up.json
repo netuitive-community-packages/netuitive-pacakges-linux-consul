@@ -14,7 +14,7 @@
       }
     ],
     "deleted": false,
-    "description": "This policy will generate a WARNING event when the number of active nodes drops.",
+    "description": "Warning: The number of active nodes is less than usual. Some nodes might be down/lost. Please, check your nodes.",
     "duration": 900,
     "enabled": true,
     "name": "Consul - Possible Node Loss",
