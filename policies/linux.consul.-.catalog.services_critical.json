@@ -15,10 +15,10 @@
       }
     ],
     "deleted": false,
-    "description": "consul.catalog.services_critical is greater than 0",
+    "description": "Please, check Consul services. Some of them might be critical. Value of consul.catalog.services_critical is greater than 0. The value is non-zero if any check is marked critical for the service.",
     "duration": 900,
     "enabled": true,
-    "name": "Consul - Critical Services",
+    "name": "Consul - Critical Services Detected",
     "scope": {
       "elementTypes": [
         "SERVER"

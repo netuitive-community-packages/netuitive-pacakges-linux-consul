@@ -14,10 +14,10 @@
       }
     ],
     "deleted": false,
-    "description": "This policy will generate a WARNING event when the number of total nodes drops.",
+    "description": "Please, check your nodes: total number of nodes is less than usual. Some nodes might be lost.",
     "duration": 900,
     "enabled": false,
-    "name": "Consul - Total Nodes Deviation",
+    "name": "Consul - Unusually Low Number of Nodes",
     "scope": {
       "elementTypes": [
         "SERVER"

@@ -15,10 +15,10 @@
       }
     ],
     "deleted": false,
-    "description": "consul.catalog.nodes_warning is greater than 0",
+    "description": "Warning: Please, check your nodes. Some of them might have issues. Value of consul.catalog.nodes_warning is greater than 0.",
     "duration": 900,
     "enabled": true,
-    "name": "Consul node(s) warning",
+    "name": "Consul - Node(s) Warning",
     "scope": {
       "elementTypes": [
         "SERVER"
