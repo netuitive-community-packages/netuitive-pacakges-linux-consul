@@ -1,0 +1,27 @@
+{
+  "policy": {
+    "actions": [
+      {
+        "category": 2,
+        "type": "event"
+      }
+    ],
+    "conditions": [
+      {
+        "analytic": "baselineDeviation",
+        "metric": "consul.catalog.nodes_up",
+        "operator": "<"
+      }
+    ],
+    "deleted": false,
+    "description": "Warning: The number of active nodes is less than usual. Some nodes might be down/lost. Please, check your nodes.",
+    "duration": 900,
+    "enabled": true,
+    "name": "Consul - Possible Node Loss",
+    "scope": {
+      "elementTypes": [
+        "SERVER"
+      ]
+    }
+  }
+}
