@@ -15,10 +15,10 @@
       }
     ],
     "deleted": false,
-    "description": "Number of nodes with service status `passing` same as those registered for health check--all nodes passing. Status must be one of passing, warning, or critical.",
+    "description": "All nodes registered are either in warning or critical status.",
     "duration": 900,
     "enabled": true,
-    "name": "All consul nodes passing.",
+    "name": "Consul Nodes Passing is 0",
     "scope": {
       "elementTypes": [
         "SERVER"

@@ -1,6 +1,6 @@
 {
   "id" : "netuitive.packages.linux.consul",
-  "version" : "1.0.0",
+  "version" : "1.0.1",
   "manifest" : {
     "name" : "Netuitive Packages Linux Consul",
     "description" : "A set of Netuitive analytics configurations, polices, dashboards, and reports that are used to monitor performance of the elements collected from the Consul collector in the Netuitive Agent.",
@@ -25,6 +25,30 @@
   }, {
     "data" : {
       "file" : "policies/linux.consul.-.catalog.nodes_passing.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  }, {
+    "data" : {
+      "file" : "policies/linux.consul.-.catalog.nodes_up.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  }, {
+    "data" : {
+      "file" : "policies/linux.consul.-.catalog.nodes_warning.json",
+      "encoding" : "policies/application/json",
+      "content" : null
+    }
+  }, {
+    "data" : {
+      "file" : "policies/linux.consul.-.catalog.services_critical.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  }, {
+    "data" : {
+      "file" : "policies/linux.consul.-.catalog.total_nodes.json",
       "encoding" : "application/json",
       "content" : null
     }

@@ -2,7 +2,7 @@
   "policy": {
     "actions": [
       {
-        "category": 3,
+        "category": 2,
         "type": "event"
       }
     ],
@@ -10,15 +10,15 @@
       {
         "analytic": "actual",
         "level": 0,
-        "metric": "consul.catalog.nodes_critical",
+        "metric": "consul.catalog.nodes_warning",
         "operator": ">"
       }
     ],
     "deleted": false,
-    "description": "consul.catalog.nodes_critical is greater than 0. Value is non-zero if any check is marked critical for the node. Status must be one of passing, warning, or critical",
+    "description": "Warning: Please, check your nodes. Some of them might have issues. Value of consul.catalog.nodes_warning is greater than 0.",
     "duration": 900,
     "enabled": true,
-    "name": "Consul node(s) or service(s) critical",
+    "name": "Consul - Node(s) Warning",
     "scope": {
       "elementTypes": [
         "SERVER"
